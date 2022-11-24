@@ -1147,7 +1147,7 @@ label {
 }
 .site-header {
 	position: relative;
-	padding: 22px 0;
+	/* padding: 22px 0; */
 	z-index: 2;
 }
 .site-header::before {
@@ -1167,6 +1167,7 @@ label {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-top: 10px;
 }
 .header-links {
 	display: inline-flex;
@@ -1889,18 +1890,14 @@ form {
  }
  #x {
 	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-	font-size: 35px;
     position: absolute;
-    background: red;
-    color: white;
-    top: -0px;
-    right: -0px;
-	border-radius: 25px;
-	height: 40px;
-	width: 40px;
-	color:#7a7c7c;
+    top: 7px;
+    right: 7px;
+	height: 25px;
+	width: 25px;
 	background: transparent;
 	border: none;
+	cursor: pointer;
 }
 
 
@@ -1965,13 +1962,18 @@ form {
 	background-color: #202d3f;
 }
 
+.lights-off .logo {
+	/* background-color: #27374d; */
+	background-color: #b5dafc;
+	border-radius: 25px;
+}
+
 .popup-image{
 	max-width: 120px;
 	display: block;
 	margin:auto;
 	margin-bottom: 24px
 }
-
 
 
 
