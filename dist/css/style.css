@@ -1241,6 +1241,8 @@ label {
 	position: relative;
 }
 .hero-media-image {
+	height: 380px;
+	width: 548px;
 	margin: 0 auto;
 	box-shadow: 48px 16px 48px rgba(24, 37, 56, 0.12);
 	border-radius: 4px;
