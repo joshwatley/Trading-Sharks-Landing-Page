@@ -1531,7 +1531,7 @@ main {
 	flex: none;
 	width: 100%;
 	display: inline-flex;
-	/* text-align: center; */
+	text-align: center;
 	justify-content: center;
 }
 .footer-brand,
