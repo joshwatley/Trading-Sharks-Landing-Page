@@ -1231,7 +1231,7 @@ label {
 .hero-media-illustration {
 	position: absolute;
 	top: -10%;
-	left: -15px;
+	left: 100px;
 }
 .hero-media-illustration img,
 .hero-media-illustration svg {
@@ -1244,7 +1244,7 @@ label {
 	max-height: 380px !important;
 	width: 548px;
 	margin: 0 auto;
-	box-shadow: 48px 16px 48px rgba(24, 37, 56, 0.12);
+	/* box-shadow: 48px 16px 48px rgba(24, 37, 56, 0.12); */
 	border-radius: 4px;
 	-webkit-transform: perspective(1000px) rotateY(16deg) rotateX(2deg)
 		rotateZ(-7deg) scaleY(0.95) translatex(2%);
@@ -1315,7 +1315,7 @@ label {
 		display: block;
 		position: absolute;
 		top: -168px;
-		left: -722px;
+		left: -712px;
 		width: 1440px;
 		height: 324px;
 	}
