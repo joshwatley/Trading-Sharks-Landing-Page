@@ -1339,6 +1339,8 @@ label {
 }
 .features-box {
 	margin: 0 auto;
+	max-width: 300px;
+	border-radius: 5px;
 	box-shadow: 48px 16px 48px rgba(24, 37, 56, 0.12);
 	-webkit-transform: perspective(1000px) rotateY(10deg) translateY(2%);
 	transform: perspective(1000px) rotateY(10deg) translateY(2%);

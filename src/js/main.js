@@ -58,7 +58,7 @@
 
 
 function openForm() {
-  if (true){
+  if (emailValidation()){
       document.getElementById("myForm").style.display = "flex"
       document.getElementById("overlay").style.display = "block"
 
